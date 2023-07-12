@@ -1,0 +1,233 @@
+h1{
+    font-family: 'Caviar Dreams', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.sombra{
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/copiar-granos-cafe-espacio.jpg);
+    background-size: 1400px;
+}
+
+.barra1 {
+    background-color: #ffd7ab;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+nav.barra1 a {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #000000;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-style: bold;
+    text-decoration: none;
+}
+
+#contenedor {
+    position: relative;
+    min-height: calc(100vh - 100px);
+}
+
+#rectangulo {
+    width: 1100px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #cd966c;
+    background-image: url(img/FOR\ ME\ &\ U\ .png);
+    background-size: contain;
+    border: 2px solid #9a5833;
+    padding: 20px;
+    top: 80px;
+    border-radius: 80px;
+}
+
+#rectangulo2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #e6b68b;
+    background-image: ur;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    color: #000000;
+    padding: 20px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    top: 450px;
+    width: 1050px;
+    height: 200px;
+}
+
+#rectangulo2 p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+#rectangulo3 {
+    position: absolute;
+    background-color: #ffffff00;
+    background-image: url(img/producto1.png);
+    background-size: contain;
+    border-right: 2px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    border-top: 0.5px solid #000000;
+    width: 23%;
+    height: 100%;
+    border-radius: 0px 200px 200px 0px;
+    top: 0px;
+    left: 0px;
+}
+
+#rectangulo4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #e6b68b;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    color: #000000;
+    padding: 20px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    top: 800px;
+    width: 1050px;
+    height: 200px;
+}
+
+#rectangulo4 p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+#rectangulo5 {
+    position: absolute;
+    background-color: #ffffff00;
+    background-image: url(img/persona-sirviendo-taza-cafe.jpg);
+    background-size: cover;
+    border-left: 2px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    border-top: 0.5px solid #000000;
+    width: 22%;
+    height: 100%;
+    border-radius: 200px 0px 0px 200px;
+    top: 0px;
+    right: 0px;
+}
+
+#rectangulo6 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #e6b68b;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    color: #000000;
+    padding: 20px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    top: 800px;
+    width: 1050px;
+    height: 200px;
+}
+
+#rectangulo6 p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+#rectangulo7 {
+    position: absolute;
+    background-color: #ffffff00;
+    background-image: url(img/bodegon-concepto-preparacion-cafe_23-2150354612.avif);
+    background-size: 250px;
+    border-right: 2px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    border-top: 0.5px solid #000000;
+    width: 23%;
+    height: 100%;
+    border-radius: 0px 200px 200px 0px;
+    top: 0px;
+    left: 0px;
+}
+
+#rectangulo8 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #e6b68b;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    color: #000000;
+    padding: 20px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    top: 1400px;
+    width: 1050px;
+    height: 200px;
+}
+
+#rectangulo8 p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+#rectangulo9 {
+    position: absolute;
+    background-color: #ffffff00;
+    background-image: url(img/pareja-disfrutando-cafe-fin-semana_53876-30681.avif);
+    background-size: 340px;
+    border-left: 2px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    border-top: 0.5px solid #000000;
+    width: 22%;
+    height: 100%;
+    border-radius: 200px 0px 0px 200px;
+    top: 0px;
+    right: 0px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #e6b68b;;
+    width: 100%;
+    height: 200px;
+    top: 1200px;
+    border-top: 2px solid #000000;
+}
+
+body {
+    padding-bottom: 50px;
+}
